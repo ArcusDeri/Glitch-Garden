@@ -5,14 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour {
 
+	public float autoLoadNextLevel;
+
 	public void LoadLevel(string levelName){
 		Debug.Log ("Load level request");
 		SceneManager.LoadScene (levelName);
 	}
 
 	void Start(){
-		if(SceneManager.GetActiveScene().buildIndex == 0)
-			Invoke ("LoadNextLevel",3.0f);
+		if (autoLoadNextLevel == 0) {
+			Debug.Log ("Autoload disabled");
+		}else{
+			Invoke ("LoadNextLevel",autoLoadNextLevel);
+		}
 	}
 
 	public void Quit(){
