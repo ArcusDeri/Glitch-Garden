@@ -11,7 +11,6 @@ public class MusicManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
 	}
 	void Awake(){
 		DontDestroyOnLoad (gameObject);
