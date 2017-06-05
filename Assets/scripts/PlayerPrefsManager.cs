@@ -9,13 +9,13 @@ public class PlayerPrefsManager : MonoBehaviour {
 	const string LEVEL_KEY = "level_unlocked_";
 
 	public static void SetMasterVolume(float volume){
-		if (volume > 0f && volume < 1f)
+		if (volume >= 0f && volume <= 1f)
 			PlayerPrefs.SetFloat (MASTER_VOLUME_KEY, volume);
 		else
 			Debug.LogError ("Error: Master volume out of range");
 	}
 	public static void SetDifficulty(float diffLvl){
-		if (diffLvl >= 0f && diffLvl <= 1f)
+		if (diffLvl >= 0f && diffLvl <= 3f)
 			PlayerPrefs.SetFloat (DIFFICULTY_KEY, diffLvl);
 		else
 			Debug.LogError ("Error: difficulty out of range");

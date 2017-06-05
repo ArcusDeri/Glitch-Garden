@@ -1,12 +1,26 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\PlayerPrefsManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\OptionsController.cs">
     <Files>
-      <File FileName="Assets\scripts\LevelManager.cs" Line="30" Column="3" />
+      <File FileName="Assets\scripts\LevelManager.cs" Line="1" Column="1" />
       <File FileName="Assets\scripts\FadeIn.cs" Line="1" Column="1" />
       <File FileName="Assets\scripts\FadeOut.cs" Line="1" Column="1" />
-      <File FileName="Assets\scripts\PlayerPrefsManager.cs" Line="21" Column="51" />
+      <File FileName="Assets\scripts\OptionsController.cs" Line="33" Column="31" />
+      <File FileName="Assets\scripts\MusicManager.cs" Line="33" Column="28" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Glitch-Garden" expanded="True">
+            <Node name="Assembly-CSharp" expanded="True">
+              <Node name="scripts" expanded="True">
+                <Node name="OptionsController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
