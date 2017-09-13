@@ -1,29 +1,12 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Fox.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Attacker.cs">
     <Files>
-      <File FileName="Assets\Scripts\Attacker.cs" Line="15" Column="26" />
-      <File FileName="Assets\Scripts\Fox.cs" Line="33" Column="4" />
-      <File FileName="Assets\Scripts\Lizard.cs" Line="29" Column="3" />
+      <File FileName="Assets\Scripts\Attacker.cs" Line="4" Column="1" />
+      <File FileName="Assets\Scripts\Fox.cs" Line="16" Column="3" />
+      <File FileName="Assets\Scripts\Lizard.cs" Line="18" Column="27" />
+      <File FileName="Assets\Scripts\Health.cs" Line="12" Column="21" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="Glitch-Garden" expanded="True">
-            <Node name="Assembly-CSharp" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="Fox.cs" selected="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.NUnit.TestPad">
-        <State name="__root__">
-          <Node name="Glitch-Garden" expanded="True" selected="True" />
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
