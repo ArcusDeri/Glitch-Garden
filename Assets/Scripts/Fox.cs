@@ -14,8 +14,6 @@ public class Fox : MonoBehaviour {
 		anim = GetComponent<Animator> ();
 		attacker = GetComponent<Attacker> ();
 		Health = GetComponent<Health> ();
-
-		Health.HealthPoints = 15;
 	}
 	
 	// Update is called once per frame
@@ -34,11 +32,11 @@ public class Fox : MonoBehaviour {
 			anim.SetTrigger ("jumpTrigger");
 		} else 
 		{
-				anim.SetBool ("isAttacking", true);
+			anim.SetBool ("isAttacking", true);
 			attacker.Attack (obj);
 		}
 			
-		Debug.Log ("Fox collided with " + collider);
+		//Debug.Log ("Fox collided with " + collider);
 
 	}
 }

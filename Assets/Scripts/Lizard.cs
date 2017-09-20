@@ -14,8 +14,6 @@ public class Lizard : MonoBehaviour {
 		anim = GetComponent<Animator> ();
 		attacker = GetComponent<Attacker> ();
 		Health = GetComponent<Health> ();
-
-		Health.HealthPoints = 20;
 	}
 
 	// Update is called once per frame
