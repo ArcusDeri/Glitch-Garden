@@ -7,13 +7,11 @@ public class Lizard : MonoBehaviour {
 
 	private Animator anim;
 	private Attacker attacker;
-	private Health Health;
 
 	// Use this for initialization
 	void Start () {
 		anim = GetComponent<Animator> ();
 		attacker = GetComponent<Attacker> ();
-		Health = GetComponent<Health> ();
 	}
 
 	// Update is called once per frame
