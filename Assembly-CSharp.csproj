@@ -68,6 +68,7 @@
      <Compile Include="Assets\Scripts\StarTrophy.cs" />
      <Compile Include="Assets\Scripts\StartSound.cs" />
      <Compile Include="Assets\Scripts\Stone.cs" />
+     <Compile Include="Assets\StarsDisplay.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

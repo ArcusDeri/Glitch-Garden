@@ -25,7 +25,7 @@ public class DefenderSpawner : MonoBehaviour {
 	void OnMouseDown(){
 		var pos = SnapToGrid (CalculateWorldPointOfClick ());
 		GameObject newDefender = Instantiate (Button.SelectedDefender, pos, Quaternion.identity);
-		newDefender.transform.parent = DefenderParent.transform;
+		newDefender.transform.SetParent (DefenderParent.transform);
 	}
 
 	Vector2 CalculateWorldPointOfClick(){

@@ -1,16 +1,15 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Spawner.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\StarsDisplay.cs">
     <Files>
-      <File FileName="Assets\Scripts\DefenderSpawner.cs" Line="28" Column="59" />
-      <File FileName="Assets\Scripts\Attacker.cs" Line="10" Column="2" />
-      <File FileName="Assets\Scripts\Spawner.cs" Line="40" Column="38" />
+      <File FileName="Assets\Scripts\Shooter.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\DefenderSpawner.cs" Line="28" Column="62" />
+      <File FileName="Assets\Scripts\Defenders.cs" Line="14" Column="43" />
+      <File FileName="Assets\StarsDisplay.cs" Line="31" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <RunToCursorBreakpoint enabled="false" file="E:\a.mrc\CODE\Glitch-Garden\Assets\Scripts\Spawner.cs" line="37" column="3" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

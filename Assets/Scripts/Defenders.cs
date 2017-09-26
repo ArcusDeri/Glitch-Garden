@@ -4,8 +4,13 @@ using UnityEngine;
 
 public class Defenders : MonoBehaviour {
 
-	void OnTriggerEnter2D()
-	{
-		//Debug.Log (name + " trigger enter.");	
+	private StarsDisplay StarsDisplay;
+
+	void Start(){
+		StarsDisplay = GameObject.FindObjectOfType<StarsDisplay> ();
+	}
+
+	public void AddStars(int amount){
+		StarsDisplay.AddStarsToDisplay (amount);
 	}
 }
