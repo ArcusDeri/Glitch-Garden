@@ -230,13 +230,13 @@ MonoBehaviour:
     height: 339
   m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 16}
   - {fileID: 17}
   - {fileID: 18}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 2
+  m_LastSelected: 1
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -294,9 +294,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 6.5041404, y: 3.307647, z: 0}
+    m_Target: {x: 6.6364484, y: 3.0014157, z: 0}
     speed: 2
-    m_Value: {x: 6.5041404, y: 3.307647, z: 0}
+    m_Value: {x: 6.6364484, y: 3.0014157, z: 0}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -323,9 +323,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 7.8822575
+    m_Target: 10.043212
     speed: 2
-    m_Value: 7.8822575
+    m_Value: 10.043212
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -364,23 +364,23 @@ MonoBehaviour:
     height: 597
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 98290000
-    m_LastClickedID: 10648
-    m_ExpandedIDs: 705effff68fbffffaafbffffe0fbffffe2fbffff0000000098290000a8290000
+    m_SelectedIDs: 36deffff
+    m_LastClickedID: -8650
+    m_ExpandedIDs: 36deffff0efaffffaafbffffe2fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: CoreGame
+      m_OriginalName: CoreGame
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: -1118
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
@@ -490,7 +490,7 @@ MonoBehaviour:
     x: 315
     y: 92
     width: 1204
-    height: 595
+    height: 597
   m_AnimEditor: {fileID: 0}
   m_Locked: 0
 --- !u!114 &16
@@ -530,18 +530,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Prefabs/Attackers
+    - Assets/Fonts
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Prefabs/Attackers
+  - Assets/Fonts
   m_LastFoldersGridSize: 96
   m_LastProjectPath: E:\a.mrc\CODE\Glitch-Garden
   m_IsLocked: 1
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 115}
-    m_SelectedIDs: c8270000
-    m_LastClickedID: 10184
+    scrollPos: {x: 0, y: 131}
+    m_SelectedIDs: bc270000
+    m_LastClickedID: 10172
     m_ExpandedIDs: 00000000dc240000ca2700000e28000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -595,8 +595,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 68250000
-    m_LastClickedInstanceID: 9576
+    m_SelectedInstanceIDs: 26daffff
+    m_LastClickedInstanceID: -9690
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 7c1a00000000000036240000745e0000a8240000dc260000563d0000de27000040260000322600000a26000014270000a2250000a4270000fc260000ba270000c827000006270000ccc3ffff9440ffff
     m_RenameOverlay:
@@ -699,10 +699,10 @@ MonoBehaviour:
     - {x: 863.4, y: 170.8}
     - {x: 863.80005, y: 170.8}
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 13437d3d2bc36eb43ab49926d9c2f4b6,
+  m_AnimatorController: {fileID: 9100000, guid: 9c03de8806252184583937cbe55e5598,
     type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 1107055028735101822, guid: 13437d3d2bc36eb43ab49926d9c2f4b6,
+  - m_Target: {fileID: 1107391191879006726, guid: 9c03de8806252184583937cbe55e5598,
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}

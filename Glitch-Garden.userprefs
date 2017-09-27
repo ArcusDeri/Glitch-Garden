@@ -1,11 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\StarsDisplay.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\DefenderSpawner.cs">
     <Files>
-      <File FileName="Assets\Scripts\Shooter.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\DefenderSpawner.cs" Line="28" Column="62" />
-      <File FileName="Assets\Scripts\Defenders.cs" Line="14" Column="43" />
-      <File FileName="Assets\StarsDisplay.cs" Line="31" Column="1" />
+      <File FileName="Assets\Scripts\Defenders.cs" Line="7" Column="43" />
+      <File FileName="Assets\Scripts\StarsDisplay.cs" Line="29" Column="22" />
+      <File FileName="Assets\Scripts\DefenderSpawner.cs" Line="53" Column="98" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
