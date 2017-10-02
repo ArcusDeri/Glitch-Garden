@@ -3,5 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Stone : MonoBehaviour {
-	
+	private Animator MyAnimator;
+
+	void Start(){
+		MyAnimator = GetComponent<Animator> ();
+	}
+
+	void Update(){
+		
+	}
+
+	void OnTriggerStay2D(Collider2D collider){
+		Attacker attacker = collider.gameObject.GetComponent<Attacker> ();
+
+		if (attacker) {
+			MyAnimator.SetTrigger ("isAttacking");
+		}
+	}
 }

@@ -37,9 +37,6 @@ public class Spawner : MonoBehaviour {
 
 		float chanceToSpawnNow = spawnsPerSecond * Time.deltaTime / 5;
 
-		if (Random.value < chanceToSpawnNow)
-			return true;
-		else
-			return false;
+		return (Random.value < chanceToSpawnNow);
 	}
 }

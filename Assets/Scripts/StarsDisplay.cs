@@ -6,6 +6,7 @@ using UnityEngine.UI;
 [RequireComponent (typeof(Text))]
 public class StarsDisplay : MonoBehaviour {
 
+	public int StarsBalance = 100;
 	public enum TransactionStatus
 	{
 		SUCCESS,
@@ -13,7 +14,6 @@ public class StarsDisplay : MonoBehaviour {
 	}
 
 	private Text TextShown;
-	private int StarsBalance = 100;
 
 	void Start(){
 		TextShown = this.GetComponent<Text> ();
