@@ -18,6 +18,7 @@ public class Button : MonoBehaviour {
 	void OnMouseDown(){
 		ToggleButtonsColor ();
 		SetSelectedDefender();
+		DefenderInfoUpdate ();
 	}
 
 	private void ToggleButtonsColor(){
@@ -30,5 +31,10 @@ public class Button : MonoBehaviour {
 
 	private void SetSelectedDefender(){
 		SelectedDefender = DefenderPrefab;
+	}
+
+	private void DefenderInfoUpdate(){
+		var info = GameObject.FindObjectOfType<DefenderInfo> ();
+		info.UpdateDefender ();
 	}
 }

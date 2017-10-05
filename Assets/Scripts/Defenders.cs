@@ -5,6 +5,8 @@ using UnityEngine;
 public class Defenders : MonoBehaviour {
 
 	public int StarCost = 100;//default value
+	public string Name;
+	public string Damage;
 
 	private StarsDisplay StarsDisplay;
 
