@@ -14,12 +14,12 @@ public class GameTimer : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		Setup ();	
+		Setup ();
+		InvokeRepeating ("UpdateSlider", 0, Time.deltaTime);
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		UpdateSlider ();
 	}
 
 	void Setup(){
@@ -34,8 +34,9 @@ public class GameTimer : MonoBehaviour {
 
 	void UpdateSlider(){
 		MySlider.value = Time.timeSinceLevelLoad / ThisLevelTime;
-		if (MySlider.value == 1f)
+		if (MySlider.value == 1f) {
 			EndLevel ();
+		}
 	}
 
 	void EndLevel(){
